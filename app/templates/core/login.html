@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'core/css/login.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Inicio de Sesion</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>Inicio de Sesion</header>
+        <form>
+            <div class="input-field">
+                <input type="text" required>
+                <label>Correo Docente</label>
+            </div>
+            <div class="input-field">
+                <input class="pswrd" type="password" required>
+                <span class="show">Mostrar</span>
+                <label>Contraseña</label>
+            </div>
+            <div class="button">
+                <div class="inner"></div>
+                <button>Ingresar</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="{% static 'core/js/login.js' %}"></script>
+</body>
+
+</html>
