@@ -7,3 +7,12 @@ def home(request):
 
 def login(request):
     return render(request, 'core/login.html')
+
+def formulariop(request):
+    return render(request, 'core/formulariop.html')
+
+def sede(request):
+    return render(request, 'core/sede.html')
+
+def carrera(request):
+    return render(request, 'core/carrera.html')
