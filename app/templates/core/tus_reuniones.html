@@ -29,8 +29,8 @@
         <i class="fas fa-bars"></i>
       </label>
       <ul>
-        <li><a href="alumnos" class="active">ALUMNOS</a></li>
-        <li><a href="tus_reuniones">REUNIONES</a></li>
+        <li><a href="alumnos">ALUMNOS</a></li>
+        <li><a href="tus_reuniones" class="active">REUNIONES</a></li>
         <li><a href="docentes">DOCENTES</a></li>
         <li><a href="sedes">SEDES</a></li>
         <li><a href="../">CERRAR SESION</a></li>
@@ -39,36 +39,35 @@
   </header>
   <main>
     <div class="container ini">
-      <h1 class="init">ENTREVISTAS</h1>
+      <h1 class="init">TUS REUNIONES</h1>
+      <h4 class="init">ESTABLECER REUNION</h4>
       <div class="row">
         <div class="col-lg-12">
             <div class="table-responsive">
                 <table id="tablaalumnos" class="table table-striped table-bordered table-condensed" >
                     <thead class="text-center">
                         <tr>
-                            <th>Rut</th>
-                            <th>Nombre</th>
-                            <th>Tutor</th>
-                            <th>Telefono</th>
-                            <th>Email</th>
-                            <th>Fecha</th>
+                            <th>Semana</th>
+                            <th>Mes</th>
+                            <th>Alumno</th>
+                            <th>Dia</th>
                             <th>Acciones</th>
                         </tr>
                     </thead>
                     <tbody >
                         <tr style="text-align: center;">
                          
-                            <td>20678994-2</td>
-                            <td>Fernando Javier Castro Morales</td>
-                            <td>Henry Grino Guerra</td>
-                            <td>9 5407 9812</td>
-                            <td>fernadojc@santotomas.cl</td>
-                            <td>26/08/22</td>
+                            <td>3</td>
+                            <td>Agosto</td>
+                            <td>20.578.988-3</td>
+                            <td>
+                              <input class="dia" type="text" name="dia" id="dia" placeholder="Digite el dia">
+                            </td>
                             <td>
                                 <div class="btnAcciones">
                                     <div class="btn-group">
                                         <a href="">
-                                            <button href="#" class="btn btn-primary" id="btnModificar">Modificar</button>
+                                            <button href="#" class="btn btn-primary" id="btnAgregar">Agregar</button>
                                         </a>
                                     </div>
                                 </div>
@@ -76,26 +75,34 @@
                         </tr>
                     </tbody>
                 </table>
-                <h1 class="init">ASPECTOS ACADEMICOS</h1>
+                <h1 class="init">LISTA DE REUINIONES AGREGADAS</h1>
                 <table id="tablaalumnos" class="table table-striped table-bordered table-condensed" >
                     <thead class="text-center">
                         <tr>
-                            <th>Asistencia</th>
-                            <th>Apecto financiero</th>
-                            <th>Rendimiento academico</th>
+                          <th>Alumno</th>
+                          <th>Dia</th>
+                          <th>Semana</th>
+                          <th>Mes</th>
+                          <th>Acciones</th>
                         </tr>
                     </thead>
                     <tbody >
                         <tr style="text-align: center;">
                          
-                            <td>No tiene problemas de asistecia</td>
-                            <td>Posee Gratuidad</td>
+                            <td>20.578.988-3</td>
+                            <td>15</td>
+                            <td>3</td>
+                            <td>Agosto</td>
                             <td>
                                 <div class="btnAcciones">
                                     <div class="btn-group">
                                         <a href="">
-                                            <button href="#" class="btn btn-primary" id="btnVisualizar">Visualizar</button>
+                                            <button href="#" class="btn btn-primary" id="btnModificar">Modificar</button>
                                         </a>
+
+                                        <a href="">
+                                          <button href="#" class="btn btn-danger" id="btnEliminar">Eliminar</button>
+                                      </a>
                                     </div>
                                 </div>
                             </td>

@@ -22,3 +22,9 @@ def alumnos(request):
 
 def entrevistas(request):
     return render(request, 'core/entrevistas.html')
+
+def reuniones(request):
+    return render(request, 'core/reuniones.html')
+
+def tus_reuniones(request):
+    return render(request, 'core/tus_reuniones.html')

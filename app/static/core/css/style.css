@@ -264,8 +264,35 @@ main {
 
 #btnModificar{
     background-color: #33615b;
+    margin: 5px;
 }
 
 #btnVisualizar{
     background-color: #33615b;
+}
+
+#btnAgregar{
+    background-color: #33615b;
+}
+
+.slr{
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#btnEliminar{
+    margin: 5px;
+}
+
+.dia{
+    width: auto;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #d2d2d2;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
 }
