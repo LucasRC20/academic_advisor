@@ -296,3 +296,10 @@ main {
     font-size: 18px;
     color: rgb(0, 0, 0);
 }
+
+#botonP{
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+}
