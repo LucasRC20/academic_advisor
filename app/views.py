@@ -16,3 +16,9 @@ def sede(request):
 
 def carrera(request):
     return render(request, 'core/carrera.html')
+
+def alumnos(request):
+    return render(request, 'core/alumnos.html')
+
+def entrevistas(request):
+    return render(request, 'core/entrevistas.html')

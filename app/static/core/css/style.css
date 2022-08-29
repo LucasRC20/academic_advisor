@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-.inicio{
+.inicio {
     background-color: #74ACA5;
 }
 
@@ -9,7 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 nav {
@@ -147,11 +147,12 @@ img {
     width: 150px;
 }
 
-main{
+main {
     padding-top: 80px;
 }
 
-.ini{
+.ini {
+    overflow: hidden;
     padding-top: 20px;
     background-color: #75a494;
     padding-bottom: 20px;
@@ -159,28 +160,112 @@ main{
     box-shadow: 5px 5px 5px 5px #00000065;
 }
 
-.init{
+.init {
     font-family: 'Montserrat', sans-serif;
     background-color: #004F44;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     text-align: left;
-    text-decoration: underline;
+    box-shadow: 5px 9px 17px #000;
     color: white;
 }
 
-.slb{
+.slb {
     margin: 10px;
     font-size: 25px;
     float: right;
-    
+
 }
 
-.txto{
+.txto {
     font-size: 20px;
 }
 
-.icon{
+#icon {
+    height: 50px;
+    width: 30px;
     float: right;
+}
+
+.form-register {
+    float: left;
+    width: 400px;
+    background: #004F44;
+    padding: 30px;
+    margin: 80px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #d2d2d2;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+#archivos {
+    font-size: 17px;
+    margin: 10px;
+}
+
+#descarga {
+    width: 100%;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#dat {
+    padding-top: 5px;
+    text-align: center;
+}
+
+#tablaalumnos {
+    width: 100%;
+    background-color: white;
+}
+
+.btnAcciones{
+    text-align: center;
+    
+}
+
+#btnModificar{
+    background-color: #33615b;
+}
+
+#btnVisualizar{
+    background-color: #33615b;
 }
